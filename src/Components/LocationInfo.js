@@ -24,10 +24,10 @@ const LocationInfo = ({info, isNumber}) => {
 
     return(
         <div>
-            <h4>{nameLocation}</h4>
-            <h4>{typeLocation}</h4>
-            <h4>{dimensionLocation}</h4>
-            <h4>{limitResident}</h4>
+            <h4>NOMBRE: {nameLocation}</h4>
+            <h4>TYPE: {typeLocation}</h4>
+            <h4>DIMENSION: {dimensionLocation}</h4>
+            <h4>RESIDENTES:{limitResident}</h4>
         </div>
     )
 }

@@ -1,6 +1,6 @@
 .App {
   margin-top: 0;
-  height: 100vh;
+  
   background-color: #18A5A4;
 }
 
@@ -11,8 +11,42 @@
   flex-wrap: wrap;
 }
 
+#containerSearch {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+#containerSearch input {
+  border-radius: 5px;
+  background-color: #c8c8c8;
+  height: 25px;
+  margin-bottom: 15px;
+}
+
+#containerSearch button {
+  width: 50%;
+  border-radius: 5px;
+  background-color: peru;
+  margin-left: 25%;
+}
+
 #containeCard{
-  width: 100%;
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
   border-top: dashed 5px white;
+}
+
+#containeCard h2 {
+  width: 100%;
+}
+
+.card {
+  width: 20%;
+}
+
+.card img {
+  width: 75%;
 }
